@@ -3,11 +3,6 @@
 ## Descripción del Proyecto
 Este repositorio contiene los proyectos y prácticas del curso de Programación para Dispositivos Móviles, correspondiente al semestre 2025-I.
 
-## Estructura del Repositorio
-- `practica1/`: Directorio de la primera práctica
-- `docs/`: Documentación del proyecto
-- `src/`: Código fuente de las aplicaciones
-
 ## Prácticas
 
 ### [Práctica 1](Practica-1)
