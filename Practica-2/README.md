@@ -3,7 +3,7 @@
 ## Descripción
 Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cada uno con una funcionalidad única:
 1. CuentaBancaria: Sistema de gestión de cuentas bancarias con validaciones
-2. 
+2. Producto: Sistema de gestión de productos con cálculo de descuentos
 3. 
 4. 
 
@@ -13,7 +13,7 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 
 ## Estructura del Proyecto
 - [`Ejercicio 1`](src/practica2-ejercicio1.kt): Implementación de una clase CuentaBancaria
-- [`Ejercicio 2`](src/practica2-ejercicio2.kt): 
+- [`Ejercicio 2`](src/practica2-ejercicio2.kt): Implementación de una clase Producto
 - [`Ejercicio 3`](src/practica2-ejercicio3.kt): 
 - [`Ejercicio 4`](src/practica2-ejercicio4.kt): 
 
@@ -30,18 +30,20 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 3. Realizará operaciones de prueba (retiros, depósitos, cambios de límite)
 4. Mostrará mensajes informativos sobre el resultado de cada operación
 
-### Ejercicio 2: 
+### Ejercicio 2: Gestión de Productos con Descuentos
 #### Descripción
-- 
-- 
-- 
-- 
+- Implementación de una clase `Producto` que maneja precio y descuento aplicable
+- Propiedades con getters y setters validados para asegurar valores correctos
+- Método para calcular el precio final después de aplicar el descuento
+- Función para mostrar información detallada incluyendo precio original, descuento y precio final
+- Validaciones para asegurar que el precio sea positivo y el descuento esté entre 0% y 100%
 
 #### Instrucciones de Ejecución
-1. 
-2. 
-3. 
-4. 
+1. Ejecutar el archivo `practica2-ejercicio2.kt`
+2. El programa creará un producto de ejemplo con precio de 1000 y descuento del 20%
+3. Realizará modificaciones al precio y al porcentaje de descuento
+4. Mostrará el cálculo del precio final con el descuento aplicado
+5. Incluye ejemplos de manejo de errores para validaciones incorrectas
 
 ### Ejercicio 3: 
 #### Descripción
