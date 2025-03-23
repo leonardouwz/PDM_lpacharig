@@ -5,7 +5,7 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 1. CuentaBancaria: Sistema de gestión de cuentas bancarias con validaciones
 2. Producto: Sistema de gestión de productos con cálculo de descuentos
 3. Figuras Geométricas: Implementación de clases usando herencia y polimorfismo
-4. 
+4. Sistema de Biblioteca: Gestión completa de materiales y usuarios con préstamos
 
 ## Requisitos
 - Kotlin SDK
@@ -15,7 +15,7 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 - [`Ejercicio 1`](src/practica2-ejercicio1.kt): Implementación de una clase CuentaBancaria
 - [`Ejercicio 2`](src/practica2-ejercicio2.kt): Implementación de una clase Producto
 - [`Ejercicio 3`](src/practica2-ejercicio3.kt): Implementación de una jerarquía de figuras geométricas
-- [`Ejercicio 4`](src/practica2-ejercicio4.kt): 
+- [`Ejercicio 4`](src/practica2-ejercicio4.kt): Implementación de una biblioteca de Libros y Revistas
 
 ### Ejercicio 1: Gestión de Cuentas Bancarias
 #### Descripción
@@ -61,17 +61,21 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 4. Mostrará los resultados de cada cálculo
 5. Demostrará el manejo de errores para valores inválidos
 
-### Ejercicio 4: 
+### Ejercicio 4: Sistema de Gestión de Biblioteca
 #### Descripción
-- 
-- 
-- 
+- Implementación de un sistema completo para administrar una biblioteca con materiales (libros y revistas) y usuarios
+- Utilización de clases abstractas (`Material`), subclases especializadas (`Libro`, `Revista`), interfaces (`IBiblioteca`), y data classes (`Usuario`)
+- Gestión de préstamos y devoluciones con validaciones de disponibilidad
+- Interfaz de usuario interactiva mediante un menú en consola con opciones para registrar materiales/usuarios, realizar préstamos/devoluciones y consultar información
+- Implementación de buenas prácticas como encapsulamiento, herencia, polimorfismo y manejo de excepciones
 
 #### Instrucciones de Ejecución
-1. 
-2. 
-3. 
-4. 
+1. Ejecutar el archivo `practica2-ejercicio4.kt`
+2. El programa mostrará un menú interactivo con 8 opciones principales
+3. Se cargan automáticamente datos de ejemplo para facilitar las pruebas (2 libros, 2 revistas y 2 usuarios)
+4. Permite registrar nuevos materiales (libros o revistas) y usuarios
+5. Gestiona préstamos y devoluciones con validaciones de disponibilidad
+6. Muestra listados de materiales (disponibles, prestados o todos) y usuarios con opción de ver detalles
 
 ## Cómo Ejecutar
 - En IntelliJ, seleccionar la carpeta `src/` y seleccionar: `Mark Directory as` - `Sources Root`. Y configurar Kotlin con Java.
