@@ -4,7 +4,7 @@
 Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cada uno con una funcionalidad única:
 1. CuentaBancaria: Sistema de gestión de cuentas bancarias con validaciones
 2. Producto: Sistema de gestión de productos con cálculo de descuentos
-3. 
+3. Figuras Geométricas: Implementación de clases usando herencia y polimorfismo
 4. 
 
 ## Requisitos
@@ -14,7 +14,7 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 ## Estructura del Proyecto
 - [`Ejercicio 1`](src/practica2-ejercicio1.kt): Implementación de una clase CuentaBancaria
 - [`Ejercicio 2`](src/practica2-ejercicio2.kt): Implementación de una clase Producto
-- [`Ejercicio 3`](src/practica2-ejercicio3.kt): 
+- [`Ejercicio 3`](src/practica2-ejercicio3.kt): Implementación de una jerarquía de figuras geométricas
 - [`Ejercicio 4`](src/practica2-ejercicio4.kt): 
 
 ### Ejercicio 1: Gestión de Cuentas Bancarias
@@ -45,18 +45,21 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 4. Mostrará el cálculo del precio final con el descuento aplicado
 5. Incluye ejemplos de manejo de errores para validaciones incorrectas
 
-### Ejercicio 3: 
+### Ejercicio 3: Figuras Geométricas con Herencia
 #### Descripción
-- 
-- 
-- 
+- Implementación de una clase abstracta `Shape` que define la estructura base para todas las figuras
+- Tres subclases concretas que heredan de Shape: `Cuadrado`, `Círculo`, y `Rectángulo`
+- Uso de propiedades abstractas para área y perímetro
+- Implementación de métodos específicos para cada tipo de figura
+- Polimorfismo para tratar diferentes figuras de manera uniforme
+- Validaciones para asegurar que los parámetros de las figuras sean positivos
 
 #### Instrucciones de Ejecución
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Ejecutar el archivo `practica2-ejercicio3.kt`
+2. El programa creará instancias de diferentes figuras geométricas
+3. Calculará el área y perímetro para cada figura
+4. Mostrará los resultados de cada cálculo
+5. Demostrará el manejo de errores para valores inválidos
 
 ### Ejercicio 4: 
 #### Descripción

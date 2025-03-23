@@ -71,4 +71,5 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 4. Ganar si adivina o perder si agota intentos
 
 ## Cómo Ejecutar
-Cada ejercicio puede ejecutarse de forma independiente. Seleccione el archivo correspondiente y ejecute el método `main()`.
+- En IntelliJ, seleccionar la carpeta `src/` y seleccionar: `Mark Directory as` - `Sources Root`. Y configurar Kotlin con Java.
+- Cada ejercicio puede ejecutarse de forma independiente. Seleccione el archivo correspondiente y ejecute el método `main()`.
