@@ -12,10 +12,10 @@ Este proyecto contiene cuatro ejercicios prácticos desarrollados en Kotlin, cad
 - Entorno de desarrollo (IntelliJ IDEA recomendado)
 
 ## Estructura del Proyecto
-- [`practica1-ejercicio1.kt`](src/practica1-ejercicio1.kt): Calculador de Salario
-- [`practica1-ejercicio2.kt`](src/practica1-ejercicio2.kt): Piedra, Papel y Tijeras
-- [`practica1-ejercicio3.kt`](src/practica1-ejercicio3.kt): Calculadora Básica
-- [`practica1-ejercicio4.kt`](src/practica1-ejercicio4.kt): Adivina el Número
+- [`Ejercicio 1`](src/practica1-ejercicio1.kt): Calculador de Salario
+- [`Ejercicio 2`](src/practica1-ejercicio2.kt): Piedra, Papel y Tijeras
+- [`Ejercicio 3`](src/practica1-ejercicio3.kt): Calculadora Básica
+- [`Ejercicio 4`](src/practica1-ejercicio4.kt): Adivina el Número
 
 ### Ejercicio 1: Calculador de Salario
 #### Descripción
