@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Practica3_Ejercicio2</string>
+    <string name="nombre_del_artista">Nombre del artista</string>
+    <string name="reproductor_de_m_sica">Reproductor de Música</string>
+    <string name="portada_del_lbum">Portada del álbum</string>
+    <string name="t_tulo_de_la_canci_n">Título de la canción</string>
+    <string name="Retroceder">⏮</string>
+    <string name="Reproducir">▶</string>
+    <string name="Pausar">⏸</string>
+    <string name="Detener">⏹</string>
+    <string name="Siguiente">⏭</string>
+    <string name="Inicio">0:00</string>
+    <string name="estado_detenido">Estado: Detenido</string>
+    <string name="Final">0:00</string>
+</resources>
