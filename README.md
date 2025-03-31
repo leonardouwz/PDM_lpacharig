@@ -11,7 +11,7 @@ Este repositorio contiene los proyectos y prácticas del curso de Programación 
 ### Práctica 2
 [![Enlace a Práctica 2](https://img.shields.io/badge/Ir%20a-Práctica%202-blue)](Practica-2)
 
-### Práctica 2
+### Práctica 3
 [![Enlace a Práctica 3](https://img.shields.io/badge/Ir%20a-Práctica%203-blue)](Practica-3)
 
 #### Objetivos
