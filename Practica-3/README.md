@@ -1,4 +1,4 @@
-# Práctica 2: Aplicaciones Android
+# Práctica 3: Aplicaciones Android
 
 ## Descripción
 Este proyecto contiene 2 aplicaciones android:
