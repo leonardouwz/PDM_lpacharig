@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ejercicio1</string>
+    <string name="msg_bienvenida">Bienvenido!</string>
+    <string name="btn_comenzar">Comenzar</string>
 </resources>
