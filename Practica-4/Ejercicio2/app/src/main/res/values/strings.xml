@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Ejercicio2</string>
+    <string name="hint_nota">Escribe tu nota aquí...</string>
+    <string name="btn_compartir">Compartir</string>
 </resources>
