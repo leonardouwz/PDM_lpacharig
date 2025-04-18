@@ -2,4 +2,7 @@
     <string name="app_name">Ejercicio2</string>
     <string name="hint_nota">Escribe tu nota aquí...</string>
     <string name="btn_compartir">Compartir</string>
+    <string name="nota_mostrada">Nota mostrada aquí</string>
+    <string name="btn_compartir_por_correo">Compartir por correo</string>
+    <string name="btn_editar">Editar de nuevo</string>
 </resources>
