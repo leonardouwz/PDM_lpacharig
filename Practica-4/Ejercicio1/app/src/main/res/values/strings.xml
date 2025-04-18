@@ -2,4 +2,14 @@
     <string name="app_name">Ejercicio1</string>
     <string name="msg_bienvenida">Bienvenido!</string>
     <string name="btn_comenzar">Comenzar</string>
+    <string name="msg_confirmacion">¿Los datos son correctos?</string>
+    <string name="msg_resumen">Resumen del Perfil</string>
+    <string name="btn_editar">Volver a editar</string>
+    <string name="btn_confirmar">Confirmar</string>
+    <string name="msg_editor_perfil">Editor de Perfil</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="hint_edad">Edad</string>
+    <string name="hint_ciudad">Ciudad</string>
+    <string name="hint_correo_electronico">Correo electrónico</string>
+    <string name="btn_continuar">Continuar</string>
 </resources>
