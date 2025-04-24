@@ -12,12 +12,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.configuradorpedidos.databinding.FragmentInicioBinding
+import com.example.configuradorpedidos.viewmodel.PedidoViewModel
 
 class InicioFragment : Fragment() {
 
     private var _binding: FragmentInicioBinding? = null
     private val binding get() = _binding!!
+    private val pedidoViewModel: PedidoViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -29,6 +33,8 @@ class InicioFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        pedidoViewModel.reiniciarPedido() // Reiniciamos el pedido al iniciar
 
         binding.btnNuevoPedido.setOnClickListener {
             findNavController().navigate(R.id.action_inicioFragment_to_seleccionComidaFragment)
