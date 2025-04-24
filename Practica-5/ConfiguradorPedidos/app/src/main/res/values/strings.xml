@@ -11,4 +11,7 @@
     <string name="bebida">Bebida</string>
     <string name="papas_fritas">Papas fritas</string>
     <string name="postre">Postre</string>
+    <string name="msg_titulo_resumen">Resumen del Pedido</string>
+    <string name="btn_confirmar">Confirmar</string>
+    <string name="btn_editar">Editar</string>
 </resources>
