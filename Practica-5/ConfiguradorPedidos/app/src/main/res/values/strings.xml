@@ -7,4 +7,8 @@
     <string name="hamburguesa">Hamburguesa</string>
     <string name="ensalada">Ensalada</string>
     <string name="btn_siguiente">Siguiente</string>
+    <string name="msg_titulo_seleccion_extras">Selecciona los extras</string>
+    <string name="bebida">Bebida</string>
+    <string name="papas_fritas">Papas fritas</string>
+    <string name="postre">Postre</string>
 </resources>
