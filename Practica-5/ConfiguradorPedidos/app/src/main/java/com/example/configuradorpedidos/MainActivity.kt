@@ -2,7 +2,7 @@
  * Actividad principal de la aplicación de configuración de pedidos
  * Autor: Leonardo Pachari
  * Fecha creación: 23/04/2025
- * Última modificación: 23/04/2025
+ * Última modificación: 24/04/2025
  */
 
 package com.example.configuradorpedidos
