@@ -1,6 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/nav_graph">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
 
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.configuradorpedidos.InicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_inicioFragment_to_seleccionComidaFragment"
+            app:destination="@id/seleccionComidaFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/seleccionComidaFragment"
+        android:name="com.example.configuradorpedidos.SeleccionComidaFragment"
+        android:label="fragment_seleccion_comida"
+        tools:layout="@layout/fragment_seleccion_comida">
+        <action
+            android:id="@+id/action_seleccionComidaFragment_to_seleccionExtrasFragment"
+            app:destination="@id/seleccionExtrasFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/seleccionExtrasFragment"
+        android:name="com.example.configuradorpedidos.SeleccionExtrasFragment"
+        android:label="fragment_seleccion_extras"
+        tools:layout="@layout/fragment_seleccion_extras">
+        <action
+            android:id="@+id/action_seleccionExtrasFragment_to_resumenPedidoFragment"
+            app:destination="@id/resumenPedidoFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resumenPedidoFragment"
+        android:name="com.example.configuradorpedidos.ResumenPedidoFragment"
+        android:label="fragment_resumen_pedido"
+        tools:layout="@layout/fragment_resumen_pedido">
+        <action
+            android:id="@+id/action_resumenPedidoFragment_to_inicioFragment"
+            app:destination="@id/inicioFragment"
+            app:popUpTo="@id/inicioFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 </navigation>
