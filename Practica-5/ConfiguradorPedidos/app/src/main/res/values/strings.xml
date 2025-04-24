@@ -2,4 +2,9 @@
     <string name="app_name">ConfiguradorPedidos</string>
     <string name="msg_titulo">Configurador de Pedidos</string>
     <string name="btn_nuevo_pedido">Nuevo Pedido</string>
+    <string name="msg_titulo_seleccion">Selecciona tu comida</string>
+    <string name="pizza">Pizza</string>
+    <string name="hamburguesa">Hamburguesa</string>
+    <string name="ensalada">Ensalada</string>
+    <string name="btn_siguiente">Siguiente</string>
 </resources>
