@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Juego de Colores</string>
+    <string name="welcome_title">¡Bienvenido al Juego de Colores!</string>
+    <string name="colores_del_juego">Colores del juego</string>
+    <string name="welcome_description">Pon a prueba tus reflejos identificando el color correcto. Tienes 30 segundos para conseguir el mayor puntaje posible. ¡Pulsa el botón que coincida con el color que aparece en pantalla!</string>
+    <string name="start_game">Iniciar Juego</string>
 </resources>
