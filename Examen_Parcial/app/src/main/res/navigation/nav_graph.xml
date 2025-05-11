@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Juego de Colores - Gráfico de navegación entre fragmentos
+    Autor: Leonardo Pachari
+    Fecha creación: 10/05/2025
+    Última modificación: 10/05/2025
+-->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="com.example.juegodecolores.WelcomeFragment"
+        android:label="fragment_welcome"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_welcomeFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.juegodecolores.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game">
+        <action
+            android:id="@+id/action_gameFragment_to_resultFragment"
+            app:destination="@id/resultFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right"
+            app:popUpTo="@id/welcomeFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.juegodecolores.ResultFragment"
+        android:label="fragment_result"
+        tools:layout="@layout/fragment_result">
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_resultFragment_to_gameFragment"
+            app:destination="@id/gameFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out" />
+        <action
+            android:id="@+id/action_resultFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popUpTo="@id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>
