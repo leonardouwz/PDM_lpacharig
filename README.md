@@ -20,6 +20,9 @@ Este repositorio contiene los proyectos y prácticas del curso de Programación 
 ### Práctica 5
 [![Enlace a Práctica 5](https://img.shields.io/badge/Ir%20a-Práctica%205-blue)](Practica-5)
 
+### Exámen Parcial
+[![Enlace al Exámen Parcial](https://img.shields.io/badge/Ir%20a-Exámen%20Parcial-darkred)](Examen_Parcial)
+
 #### Objetivos
 - Introducción al desarrollo de aplicaciones móviles
 - Configuración del entorno de desarrollo
