@@ -37,13 +37,13 @@ class WelcomeFragment : Fragment() {
         val fadeIn = AnimationUtils.loadAnimation(requireContext(), R.anim.fade_in)
         binding.welcomeTitle.startAnimation(fadeIn)
         binding.welcomeImage.startAnimation(fadeIn)
-        
+
         // Configuramos el botón de inicio
         binding.startGameButton.setOnClickListener {
             // Aplicamos animación al botón
             val pulseAnimation = AnimationUtils.loadAnimation(requireContext(), R.anim.pulse_animation)
             it.startAnimation(pulseAnimation)
-            
+
             // Navegamos al fragmento de juego
             findNavController().navigate(R.id.action_welcomeFragment_to_gameFragment)
         }
