@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Juego de Colores - Layout del fragmento de juego
+    Autor: Leonardo Pachari
+    Fecha creación: 11/05/2025
+    Última modificación: 11/05/2025
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".GameFragment">
+
+    <!-- Información del juego en la parte superior -->
+    <TextView
+        android:id="@+id/scoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/score"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/time_remaining"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Cuadro que muestra el color actual -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/colorDisplayCard"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="48dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonGrid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scoreTextView">
+
+        <View
+            android:id="@+id/colorDisplay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/red" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Grid de botones de colores -->
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="32dp"
+        app:columnCount="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rowCount="2">
+
+        <Button
+            android:id="@+id/redButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/red"
+            android:text="@string/red"
+            android:textColor="@color/white"
+            app:layout_columnWeight="1" />
+
+        <Button
+            android:id="@+id/greenButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/green"
+            android:text="@string/green"
+            android:textColor="@color/white"
+            app:layout_columnWeight="1" />
+
+        <Button
+            android:id="@+id/blueButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/blue"
+            android:text="@string/blue"
+            android:textColor="@color/white"
+            app:layout_columnWeight="1" />
+
+        <Button
+            android:id="@+id/yellowButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/yellow"
+            android:text="@string/yellow"
+            android:textColor="@color/black"
+            app:layout_columnWeight="1" />
+
+        <Button
+            android:id="@+id/purpleButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/purple"
+            android:text="@string/purple"
+            android:textColor="@color/white"
+            app:layout_columnWeight="1" />
+
+        <Button
+            android:id="@+id/orangeButton"
+            android:layout_width="0dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="@color/orange"
+            android:text="@string/orange"
+            android:textColor="@color/black"
+            app:layout_columnWeight="1" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

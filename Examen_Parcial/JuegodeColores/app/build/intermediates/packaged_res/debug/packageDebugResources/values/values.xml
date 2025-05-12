@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#FF5722</color>
+    <color name="black">#FF000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="green">#4CAF50</color>
+    <color name="orange">#FF9800</color>
+    <color name="primary">#673AB7</color>
+    <color name="primary_dark">#512DA8</color>
+    <color name="primary_light">#D1C4E9</color>
+    <color name="purple">#9C27B0</color>
+    <color name="red">#F44336</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#FFEB3B</color>
+    <string name="app_name">Juego de Colores</string>
+    <string name="blue">Azul</string>
+    <string name="green">Verde</string>
+    <string name="orange">Naranja</string>
+    <string name="purple">Púrpura</string>
+    <string name="red">Rojo</string>
+    <string name="score">Puntuación: %1$d</string>
+    <string name="start_game">Iniciar Juego</string>
+    <string name="time_remaining">Tiempo: %1$d s</string>
+    <string name="welcome_description">Pon a prueba tus reflejos identificando el color correcto.
+        \n\nTienes 30 segundos para conseguir el mayor puntaje posible.\n\n¡Pulsa el botón que coincida con el color que aparece en pantalla!</string>
+    <string name="welcome_title">¡Bienvenido al Juego de Colores!</string>
+    <string name="yellow">Amarillo</string>
+    <style name="Theme.JuegoDeColores" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/white</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+</resources>
