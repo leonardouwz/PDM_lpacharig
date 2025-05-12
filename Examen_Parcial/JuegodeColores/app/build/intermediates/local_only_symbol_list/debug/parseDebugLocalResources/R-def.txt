@@ -62,6 +62,7 @@ navigation nav_graph
 string app_name
 string back_to_menu
 string blue
+string colores_del_juego
 string green
 string high_score
 string message_bad

@@ -19,6 +19,7 @@
     <string name="app_name">Juego de Colores</string>
     <string name="back_to_menu">Volver al menú</string>
     <string name="blue">Azul</string>
+    <string name="colores_del_juego">Colores del juego</string>
     <string name="green">Verde</string>
     <string name="high_score">¡Nuevo récord! Puntuación más alta: %1$d</string>
     <string name="message_bad">¡Puedes hacerlo mejor!</string>
