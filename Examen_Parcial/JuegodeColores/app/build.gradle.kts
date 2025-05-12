@@ -59,3 +59,13 @@ dependencies {
     // Para DataBinding y safeargs navigation
     kapt("androidx.databinding:databinding-compiler-common:8.10.0")
 }
+
+// Add this configuration to resolve the dependency conflict
+configurations.all {
+    resolutionStrategy {
+        // Force specific versions
+        force("androidx.core:core:1.16.0")
+        // Exclude old support libraries
+        exclude(group = "com.android.support")
+    }
+}

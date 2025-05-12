@@ -1,6 +1,0 @@
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\ColorManager.kt
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\ScoreManager.kt
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\MainActivity.kt
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\WelcomeFragment.kt
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\GameFragment.kt
-D:\github\PDM\PDM_lpacharig\Examen_Parcial\JuegodeColores\app\src\main\java\com\example\juegodecolores\ResultFragment.kt
